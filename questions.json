@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "A company develops an AI system used by banks to assess loan eligibility and sells it to financial institutions in the EU. Under the EU AI Act, what role does the company primarily hold?",
+    "options": [
+      "A. Deployer",
+      "B. Provider",
+      "C. Notified Body",
+      "D. Market Surveillance Authority"
+    ],
+    "answer": "B",
+    "explanation": "Under the EU AI Act, the entity that develops an AI system and places it on the EU market under its own name is considered the Provider. The banks using the system to make lending decisions are Deployers. A Notified Body is an accredited organization that performs conformity assessments, and a Market Surveillance Authority is a regulator ensuring compliance."
+  },
+  {
+    "id": 2,
+    "question": "A city government implements an AI system that performs real-time facial recognition in public spaces to track citizens' movements without legal authorization. According to the EU AI Act, which risk category does this most likely fall under?",
+    "options": [
+      "A. Minimal Risk",
+      "B. Limited Risk",
+      "C. High Risk",
+      "D. Prohibited Risk"
+    ],
+    "answer": "D",
+    "explanation": "The EU AI Act designates certain uses of AI as Prohibited, including real-time biometric identification in public spaces for mass surveillance without strict legal justification. High-risk systems are allowed but heavily regulated, while limited and minimal risk systems have lighter obligations."
+  },
+  {
+    "id": 3,
+    "question": "An organization is evaluating an autonomous AI agent capable of generating plans and executing tasks across multiple software systems. Which governance risk is most associated with agentic architectures?",
+    "options": [
+      "A. Deterministic output generation",
+      "B. Autonomous goal misalignment",
+      "C. Static rule execution",
+      "D. Reduced operational complexity"
+    ],
+    "answer": "B",
+    "explanation": "Agentic architectures introduce risks related to autonomous planning and goal misalignment, where an AI system might pursue objectives in unintended ways. Deterministic outputs and static rule execution are characteristics of traditional software systems, not agentic AI. Autonomous systems typically increase, not reduce, operational complexity."
+  },
+  {
+    "id": 4,
+    "question": "A multinational company is conducting an AI System Impact Assessment following ISO/IEC 42005 before deploying an AI hiring tool. What is the primary objective of this assessment?",
+    "options": [
+      "A. To determine system profitability",
+      "B. To assess legal, ethical, and societal impacts of the AI system",
+      "C. To measure computational performance",
+      "D. To certify the AI model accuracy"
+    ],
+    "answer": "B",
+    "explanation": "ISO/IEC 42005 focuses on conducting AI System Impact Assessments (AISIA) to evaluate legal, ethical, societal, and human-rights impacts prior to deployment. It is not focused on profitability, computational benchmarks, or accuracy certification."
+  },
+  {
+    "id": 5,
+    "question": "In the NIST AI Risk Management Framework (AI RMF), which core function focuses on establishing organizational policies, processes, and oversight structures for AI risk management?",
+    "options": [
+      "A. Map",
+      "B. Measure",
+      "C. Govern",
+      "D. Manage"
+    ],
+    "answer": "C",
+    "explanation": "The Govern function in the NIST AI RMF focuses on establishing oversight, accountability structures, policies, and culture around AI risk management. Map identifies risks and context, Measure evaluates risks and performance, and Manage addresses and mitigates identified risks."
+  },
+  {
+    "id": 6,
+    "question": "A developer explains that their large language model may generate slightly different responses to the same prompt even when trained on the same dataset. This behavior is best described as:",
+    "options": [
+      "A. Deterministic computation",
+      "B. Probabilistic behavior",
+      "C. Rule-based execution",
+      "D. Hard-coded inference"
+    ],
+    "answer": "B",
+    "explanation": "Generative AI systems such as large language models operate probabilistically, meaning outputs are generated based on probability distributions rather than deterministic logic. Deterministic systems produce identical outputs for identical inputs."
+  },
+  {
+    "id": 7,
+    "question": "A medical AI diagnostic system requires a doctor to review and approve every AI recommendation before it affects patient care. Which oversight model does this represent?",
+    "options": [
+      "A. Human-in-the-loop",
+      "B. Human-on-the-loop",
+      "C. Fully autonomous AI",
+      "D. Post-hoc monitoring"
+    ],
+    "answer": "A",
+    "explanation": "Human-in-the-loop means a human must actively approve or participate in the decision-making process before the system output is implemented. Human-on-the-loop refers to supervisory oversight where humans monitor but do not approve each decision."
+  },
+  {
+    "id": 8,
+    "question": "A retail company deploys a third-party AI demand forecasting system but modifies its model parameters significantly before use. Under the EU AI Act, the company may now also be considered a:",
+    "options": [
+      "A. Provider",
+      "B. Importer",
+      "C. Distributor",
+      "D. Data Processor"
+    ],
+    "answer": "A",
+    "explanation": "If a deployer substantially modifies an AI system or places it on the market under their own name, they may assume the role of Provider under the EU AI Act. This shifts regulatory responsibilities to them."
+  },
+  {
+    "id": 9,
+    "question": "A multi-agent AI system continuously exchanges outputs between agents to refine decisions. Which risk is particularly relevant in such architectures?",
+    "options": [
+      "A. Memory fragmentation",
+      "B. Feedback amplification loops",
+      "C. Static dataset bias",
+      "D. Reduced decision speed"
+    ],
+    "answer": "B",
+    "explanation": "Multi-agent systems can create feedback amplification loops, where outputs from one agent reinforce another's assumptions, potentially leading to escalating errors or unintended behaviors."
+  },
+  {
+    "id": 10,
+    "question": "Within the NIST AI RMF, an organization catalogs intended uses, stakeholders, and contextual risks associated with an AI system. Which function is being performed?",
+    "options": [
+      "A. Govern",
+      "B. Map",
+      "C. Measure",
+      "D. Manage"
+    ],
+    "answer": "B",
+    "explanation": "The Map function identifies context, intended use cases, stakeholders, and potential impacts of AI systems. It establishes understanding before risks are measured or managed."
+  },
+  {
+    "id": 11,
+    "question": "A company deploys an AI system that evaluates job candidates' CVs to shortlist applicants. Under the EU AI Act risk classification, this system is most likely categorized as:",
+    "options": [
+      "A. Minimal Risk",
+      "B. Limited Risk",
+      "C. High Risk",
+      "D. Prohibited"
+    ],
+    "answer": "C",
+    "explanation": "AI systems used in employment decisions such as hiring, candidate evaluation, or promotion are categorized as High-Risk under the EU AI Act due to potential impacts on fundamental rights."
+  },
+  {
+    "id": 12,
+    "question": "An AI governance team is evaluating whether an autonomous planning agent could override safety constraints during task optimization. Which governance concern is most relevant?",
+    "options": [
+      "A. Overfitting",
+      "B. Alignment failure",
+      "C. Data normalization",
+      "D. Model compression"
+    ],
+    "answer": "B",
+    "explanation": "Alignment failure occurs when an AI system pursues its objectives in ways that conflict with human intentions or safety constraints. Autonomous planning agents introduce significant alignment risks."
+  },
+  {
+    "id": 13,
+    "question": "During an AI System Impact Assessment under ISO/IEC 42005, which activity is most important early in the process?",
+    "options": [
+      "A. Stakeholder identification",
+      "B. Model retraining",
+      "C. GPU benchmarking",
+      "D. Prompt engineering"
+    ],
+    "answer": "A",
+    "explanation": "Identifying stakeholders is critical early in an AI impact assessment because it determines who may be affected by the AI system and informs risk evaluation and mitigation strategies."
+  },
+  {
+    "id": 14,
+    "question": "A bank monitors its AI fraud detection model continuously and intervenes only when anomalies occur. Which oversight model best describes this approach?",
+    "options": [
+      "A. Human-in-the-loop",
+      "B. Human-on-the-loop",
+      "C. Human-out-of-the-loop",
+      "D. Human-before-the-loop"
+    ],
+    "answer": "B",
+    "explanation": "Human-on-the-loop means humans supervise the system and can intervene when needed, but they do not approve every decision beforehand."
+  },
+  {
+    "id": 15,
+    "question": "In the NIST AI RMF, evaluating bias metrics, accuracy benchmarks, and system robustness corresponds to which function?",
+    "options": [
+      "A. Govern",
+      "B. Map",
+      "C. Measure",
+      "D. Manage"
+    ],
+    "answer": "C",
+    "explanation": "The Measure function focuses on assessing AI system performance, risks, biases, robustness, and reliability using metrics and testing methods."
+  },
+  {
+    "id": 16,
+    "question": "An organization uses an AI chatbot to provide customer support but clearly informs users they are interacting with AI. Under the EU AI Act transparency requirements, this system is classified as:",
+    "options": [
+      "A. Minimal Risk",
+      "B. Limited Risk",
+      "C. High Risk",
+      "D. Prohibited"
+    ],
+    "answer": "B",
+    "explanation": "AI chatbots fall under Limited Risk systems requiring transparency obligations, such as informing users they are interacting with AI."
+  },
+  {
+    "id": 17,
+    "question": "A company conducts continuous monitoring and applies mitigation strategies after identifying risks during AI system operation. Within NIST AI RMF, which function is primarily responsible for these activities?",
+    "options": [
+      "A. Map",
+      "B. Govern",
+      "C. Measure",
+      "D. Manage"
+    ],
+    "answer": "D",
+    "explanation": "The Manage function focuses on responding to and mitigating identified risks through controls, monitoring, and operational interventions."
+  },
+  {
+    "id": 18,
+    "question": "A generative AI system sometimes produces inaccurate but plausible-sounding information. This phenomenon is commonly referred to as:",
+    "options": [
+      "A. Gradient collapse",
+      "B. Model hallucination",
+      "C. Parameter pruning",
+      "D. Data sharding"
+    ],
+    "answer": "B",
+    "explanation": "Hallucination occurs when generative AI models produce confident but incorrect or fabricated information due to probabilistic generation mechanisms."
+  },
+  {
+    "id": 19,
+    "question": "A large enterprise deploys multiple AI agents that coordinate logistics planning automatically. What governance challenge is most likely when agents dynamically negotiate decisions?",
+    "options": [
+      "A. Reduced scalability",
+      "B. Emergent unpredictable behavior",
+      "C. Fixed deterministic outcomes",
+      "D. Elimination of systemic risk"
+    ],
+    "answer": "B",
+    "explanation": "Multi-agent systems can produce emergent behaviors that are difficult to predict or control due to complex interactions among agents."
+  },
+  {
+    "id": 20,
+    "question": "Which combination correctly lists the four core functions of the NIST AI Risk Management Framework?",
+    "options": [
+      "A. Govern, Map, Measure, Manage",
+      "B. Identify, Protect, Detect, Respond",
+      "C. Plan, Build, Deploy, Monitor",
+      "D. Assess, Certify, Approve, Audit"
+    ],
+    "answer": "A",
+    "explanation": "The NIST AI RMF is structured around four core functions: Govern (organizational oversight), Map (context and risk identification), Measure (risk assessment and evaluation), and Manage (risk mitigation and monitoring)."
+  }
+]
