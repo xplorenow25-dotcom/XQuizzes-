@@ -30,11 +30,24 @@ let hasCheckedAnswer = false;
 // --- Initialization ---
 async function init() {
     try {
-        // Must run on a local server (e.g., Live Server) for fetch to work locally
-        const response = await fetch('questions.json');
-        if (!response.ok) throw new Error('Failed to load questions');
-        
-        questions = await response.json();
+
+        const files = [
+            'questions/ai_governance_1.json',
+            'questions/ai_governance_2.json',
+            'questions/ai_governance_3.json'
+        ];
+
+        let allQuestions = [];
+
+        for (const file of files) {
+            const response = await fetch(file);
+            if (!response.ok) throw new Error(`Failed to load ${file}`);
+            
+            const data = await response.json();
+            allQuestions = allQuestions.concat(data);
+        }
+
+        questions = allQuestions;
         
         screens.loading.classList.add('hidden');
         screens.header.classList.remove('hidden');
