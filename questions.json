@@ -1,0 +1,642 @@
+[
+{
+"id":1,
+"question":"Under the EU AI Act, which entity is responsible for placing an AI system on the EU market under its own name?",
+"options":[
+"Deployer",
+"Provider",
+"Importer",
+"Distributor"
+],
+"correctIndex":1,
+"explanation":"A Provider is the entity that develops an AI system or places it on the EU market under its own name."
+},
+{
+"id":2,
+"question":"Which EU AI Act risk tier includes AI systems used in employment decisions such as hiring?",
+"options":[
+"Minimal Risk",
+"Limited Risk",
+"High Risk",
+"Prohibited"
+],
+"correctIndex":2,
+"explanation":"AI systems used in employment decisions like hiring are classified as High-Risk because they can significantly affect people's rights and opportunities."
+},
+{
+"id":3,
+"question":"Which NIST AI RMF function focuses on establishing AI governance policies and oversight?",
+"options":[
+"Map",
+"Measure",
+"Govern",
+"Manage"
+],
+"correctIndex":2,
+"explanation":"The Govern function establishes oversight, policies, accountability structures, and culture for AI risk management."
+},
+{
+"id":4,
+"question":"Which concept describes AI systems producing different outputs from the same prompt?",
+"options":[
+"Deterministic processing",
+"Probabilistic behavior",
+"Static inference",
+"Rule-based computation"
+],
+"correctIndex":1,
+"explanation":"Generative AI models produce outputs probabilistically, meaning results can vary even with identical inputs."
+},
+{
+"id":5,
+"question":"A doctor must approve an AI diagnostic recommendation before it is applied. What oversight model is this?",
+"options":[
+"Human-on-the-loop",
+"Human-in-the-loop",
+"Human-out-of-the-loop",
+"Human-after-the-loop"
+],
+"correctIndex":1,
+"explanation":"Human-in-the-loop means a human must approve decisions before they take effect."
+},
+{
+"id":6,
+"question":"Which NIST AI RMF function identifies context, stakeholders, and intended AI use?",
+"options":[
+"Map",
+"Govern",
+"Measure",
+"Manage"
+],
+"correctIndex":0,
+"explanation":"The Map function identifies system context, stakeholders, and potential risks."
+},
+{
+"id":7,
+"question":"Which AI risk is common in multi-agent systems where agents exchange outputs?",
+"options":[
+"Feedback amplification loops",
+"GPU bottlenecks",
+"Deterministic outputs",
+"Reduced autonomy"
+],
+"correctIndex":0,
+"explanation":"Multi-agent systems may create feedback loops that amplify errors or biases."
+},
+{
+"id":8,
+"question":"ISO/IEC 42005 primarily provides guidance for:",
+"options":[
+"AI model compression",
+"AI System Impact Assessments",
+"Cloud infrastructure",
+"Cybersecurity encryption"
+],
+"correctIndex":1,
+"explanation":"ISO/IEC 42005 focuses on conducting AI System Impact Assessments (AISIA)."
+},
+{
+"id":9,
+"question":"Which NIST AI RMF function evaluates AI system performance and bias metrics?",
+"options":[
+"Measure",
+"Map",
+"Govern",
+"Manage"
+],
+"correctIndex":0,
+"explanation":"The Measure function assesses AI system performance, reliability, bias, and risks."
+},
+{
+"id":10,
+"question":"Which EU AI Act category includes AI chatbots requiring transparency to users?",
+"options":[
+"Minimal Risk",
+"Limited Risk",
+"High Risk",
+"Prohibited"
+],
+"correctIndex":1,
+"explanation":"Chatbots are Limited Risk systems requiring transparency obligations."
+},
+
+{
+"id":11,
+"question":"Real-time biometric identification in public spaces without safeguards is categorized as:",
+"options":[
+"Minimal Risk",
+"Limited Risk",
+"High Risk",
+"Prohibited"
+],
+"correctIndex":3,
+"explanation":"The EU AI Act prohibits certain uses such as mass surveillance through biometric identification."
+},
+
+{
+"id":12,
+"question":"Which governance risk arises when AI goals differ from human intentions?",
+"options":[
+"Overfitting",
+"Alignment failure",
+"Normalization bias",
+"Data redundancy"
+],
+"correctIndex":1,
+"explanation":"Alignment failure occurs when AI systems pursue goals in unintended ways."
+},
+
+{
+"id":13,
+"question":"Which oversight model involves humans supervising AI but not approving every decision?",
+"options":[
+"Human-in-the-loop",
+"Human-on-the-loop",
+"Human-off-the-loop",
+"Human-before-the-loop"
+],
+"correctIndex":1,
+"explanation":"Human-on-the-loop involves monitoring with the ability to intervene."
+},
+
+{
+"id":14,
+"question":"Which NIST AI RMF function focuses on mitigating risks once identified?",
+"options":[
+"Govern",
+"Manage",
+"Measure",
+"Map"
+],
+"correctIndex":1,
+"explanation":"Manage involves implementing controls and responding to identified risks."
+},
+
+{
+"id":15,
+"question":"What phenomenon describes AI generating plausible but incorrect information?",
+"options":[
+"Gradient collapse",
+"Hallucination",
+"Token saturation",
+"Vector drift"
+],
+"correctIndex":1,
+"explanation":"Hallucination refers to confident but inaccurate outputs from generative models."
+},
+
+{
+"id":16,
+"question":"Which activity is crucial early in an AI System Impact Assessment?",
+"options":[
+"GPU benchmarking",
+"Stakeholder identification",
+"Model pruning",
+"API deployment"
+],
+"correctIndex":1,
+"explanation":"Identifying stakeholders ensures impacted groups are considered."
+},
+
+{
+"id":17,
+"question":"Which role imports AI systems into the EU market from outside the EU?",
+"options":[
+"Provider",
+"Importer",
+"Distributor",
+"Deployer"
+],
+"correctIndex":1,
+"explanation":"An Importer places AI systems from outside the EU onto the EU market."
+},
+
+{
+"id":18,
+"question":"Which characteristic distinguishes probabilistic AI from deterministic systems?",
+"options":[
+"Random hardware failures",
+"Identical outputs every time",
+"Outputs based on probability distributions",
+"Static rule execution"
+],
+"correctIndex":2,
+"explanation":"Probabilistic systems generate outputs using probability distributions."
+},
+
+{
+"id":19,
+"question":"Which governance issue arises when autonomous agents interact unpredictably?",
+"options":[
+"Emergent behavior",
+"Reduced scalability",
+"Static computation",
+"Hard-coded logic"
+],
+"correctIndex":0,
+"explanation":"Emergent behaviors occur from complex agent interactions."
+},
+
+{
+"id":20,
+"question":"Which NIST AI RMF function promotes accountability structures?",
+"options":[
+"Govern",
+"Map",
+"Measure",
+"Manage"
+],
+"correctIndex":0,
+"explanation":"Govern establishes accountability and oversight."
+},
+
+{
+"id":21,
+"question":"Which AI Act risk tier requires strict conformity assessments?",
+"options":[
+"Minimal Risk",
+"Limited Risk",
+"High Risk",
+"Prohibited"
+],
+"correctIndex":2,
+"explanation":"High-risk systems require conformity assessments before deployment."
+},
+
+{
+"id":22,
+"question":"Which architecture enables autonomous planning and task execution?",
+"options":[
+"Agentic architecture",
+"Rule-based architecture",
+"Static pipeline",
+"Deterministic automation"
+],
+"correctIndex":0,
+"explanation":"Agentic systems can plan and execute tasks autonomously."
+},
+
+{
+"id":23,
+"question":"Which NIST AI RMF function occurs after mapping context and before managing risks?",
+"options":[
+"Govern",
+"Measure",
+"Map",
+"Plan"
+],
+"correctIndex":1,
+"explanation":"Measure evaluates risks identified during the Map phase."
+},
+
+{
+"id":24,
+"question":"Which AI governance principle ensures users know when interacting with AI?",
+"options":[
+"Transparency",
+"Scalability",
+"Latency reduction",
+"Compression"
+],
+"correctIndex":0,
+"explanation":"Transparency ensures users are informed about AI interactions."
+},
+
+{
+"id":25,
+"question":"Which risk is unique to autonomous planning AI agents?",
+"options":[
+"Memory leakage",
+"Goal misalignment",
+"Keyboard input failure",
+"UI rendering errors"
+],
+"correctIndex":1,
+"explanation":"Autonomous agents may pursue goals in unintended ways."
+},
+
+{
+"id":26,
+"question":"Which EU AI Act role operates an AI system for its intended purpose?",
+"options":[
+"Provider",
+"Importer",
+"Deployer",
+"Distributor"
+],
+"correctIndex":2,
+"explanation":"Deployers use AI systems in operational environments."
+},
+
+{
+"id":27,
+"question":"Which ISO standard specifically addresses AI impact assessment methodology?",
+"options":[
+"ISO 27001",
+"ISO 42005",
+"ISO 9001",
+"ISO 31000"
+],
+"correctIndex":1,
+"explanation":"ISO/IEC 42005 focuses on AI System Impact Assessments."
+},
+
+{
+"id":28,
+"question":"Which concept describes monitoring AI outputs after deployment?",
+"options":[
+"Post-deployment monitoring",
+"Prompt engineering",
+"Tokenization",
+"Model pruning"
+],
+"correctIndex":0,
+"explanation":"Continuous monitoring ensures AI behaves as expected."
+},
+
+{
+"id":29,
+"question":"Which type of AI system uses probability distributions to generate text?",
+"options":[
+"Large Language Model",
+"Decision tree",
+"Static script",
+"Spreadsheet formula"
+],
+"correctIndex":0,
+"explanation":"LLMs generate tokens based on probability distributions."
+},
+
+{
+"id":30,
+"question":"Which oversight model allows AI to act autonomously without human monitoring?",
+"options":[
+"Human-on-the-loop",
+"Human-in-the-loop",
+"Human-out-of-the-loop",
+"Human-before-the-loop"
+],
+"correctIndex":2,
+"explanation":"Human-out-of-the-loop systems operate without direct human supervision."
+},
+
+{
+"id":31,
+"question":"Which NIST AI RMF function includes risk mitigation strategies?",
+"options":[
+"Govern",
+"Manage",
+"Map",
+"Measure"
+],
+"correctIndex":1,
+"explanation":"Manage focuses on mitigation and operational response."
+},
+
+{
+"id":32,
+"question":"Which AI risk arises when training data contains historical bias?",
+"options":[
+"Dataset bias",
+"Latency drift",
+"Hardware failure",
+"GPU overheating"
+],
+"correctIndex":0,
+"explanation":"Biased datasets can lead to discriminatory AI outcomes."
+},
+
+{
+"id":33,
+"question":"Which role distributes AI systems without modifying them?",
+"options":[
+"Provider",
+"Distributor",
+"Importer",
+"Deployer"
+],
+"correctIndex":1,
+"explanation":"Distributors make systems available without altering them."
+},
+
+{
+"id":34,
+"question":"Which AI Act category has minimal regulatory requirements?",
+"options":[
+"Minimal Risk",
+"Limited Risk",
+"High Risk",
+"Prohibited"
+],
+"correctIndex":0,
+"explanation":"Minimal risk AI systems have few regulatory obligations."
+},
+
+{
+"id":35,
+"question":"Which AI architecture involves multiple interacting agents?",
+"options":[
+"Multi-agent system",
+"Static pipeline",
+"Single-thread engine",
+"Linear algorithm"
+],
+"correctIndex":0,
+"explanation":"Multi-agent systems involve several AI agents collaborating."
+},
+
+{
+"id":36,
+"question":"Which governance objective ensures AI decisions can be explained?",
+"options":[
+"Explainability",
+"Compression",
+"Tokenization",
+"Vectorization"
+],
+"correctIndex":0,
+"explanation":"Explainability allows humans to understand AI decisions."
+},
+
+{
+"id":37,
+"question":"Which RMF function establishes ethical culture in AI development?",
+"options":[
+"Govern",
+"Map",
+"Measure",
+"Manage"
+],
+"correctIndex":0,
+"explanation":"Govern establishes responsible AI culture and policies."
+},
+
+{
+"id":38,
+"question":"Which technical feature causes generative AI outputs to vary?",
+"options":[
+"Probabilistic sampling",
+"Static rule engine",
+"Spreadsheet logic",
+"Binary lookup"
+],
+"correctIndex":0,
+"explanation":"Sampling introduces variability in outputs."
+},
+
+{
+"id":39,
+"question":"Which stage identifies stakeholders and use context?",
+"options":[
+"Map",
+"Measure",
+"Manage",
+"Govern"
+],
+"correctIndex":0,
+"explanation":"Mapping determines stakeholders and context."
+},
+
+{
+"id":40,
+"question":"Which EU AI Act tier bans certain AI practices entirely?",
+"options":[
+"Limited Risk",
+"High Risk",
+"Minimal Risk",
+"Prohibited"
+],
+"correctIndex":3,
+"explanation":"Prohibited risk systems cannot be deployed."
+},
+
+{
+"id":41,
+"question":"Which AI governance practice evaluates societal impacts before deployment?",
+"options":[
+"Impact Assessment",
+"Prompt testing",
+"GPU scaling",
+"Data compression"
+],
+"correctIndex":0,
+"explanation":"Impact assessments evaluate societal risks."
+},
+
+{
+"id":42,
+"question":"Which model behavior leads to fabricated facts?",
+"options":[
+"Hallucination",
+"Token clipping",
+"Vector merging",
+"Data pruning"
+],
+"correctIndex":0,
+"explanation":"Hallucination causes fabricated outputs."
+},
+
+{
+"id":43,
+"question":"Which architecture risk occurs when AI agents reinforce each other's errors?",
+"options":[
+"Feedback loop amplification",
+"Latency reduction",
+"Memory caching",
+"GPU balancing"
+],
+"correctIndex":0,
+"explanation":"Agent interactions can amplify errors."
+},
+
+{
+"id":44,
+"question":"Which oversight level requires constant human approval?",
+"options":[
+"Human-in-the-loop",
+"Human-on-the-loop",
+"Human-off-the-loop",
+"Human-after-the-loop"
+],
+"correctIndex":0,
+"explanation":"Human-in-the-loop requires human approval for each decision."
+},
+
+{
+"id":45,
+"question":"Which AI RMF function involves testing fairness metrics?",
+"options":[
+"Measure",
+"Map",
+"Govern",
+"Manage"
+],
+"correctIndex":0,
+"explanation":"Measure evaluates fairness, bias, and robustness."
+},
+
+{
+"id":46,
+"question":"Which risk arises when AI models optimize unintended objectives?",
+"options":[
+"Alignment risk",
+"Token overflow",
+"Compression failure",
+"Memory leak"
+],
+"correctIndex":0,
+"explanation":"Alignment risk occurs when AI goals diverge from intended outcomes."
+},
+
+{
+"id":47,
+"question":"Which EU AI role uses AI in real-world operations?",
+"options":[
+"Provider",
+"Distributor",
+"Importer",
+"Deployer"
+],
+"correctIndex":3,
+"explanation":"Deployers use AI systems in operational environments."
+},
+
+{
+"id":48,
+"question":"Which process evaluates AI reliability through metrics?",
+"options":[
+"Measurement",
+"Mapping",
+"Governance",
+"Deployment"
+],
+"correctIndex":0,
+"explanation":"Measurement assesses reliability and risks."
+},
+
+{
+"id":49,
+"question":"Which governance concept ensures accountability for AI outcomes?",
+"options":[
+"Accountability",
+"Compression",
+"Vectorization",
+"Tokenization"
+],
+"correctIndex":0,
+"explanation":"Accountability ensures responsible parties exist for AI outcomes."
+},
+
+{
+"id":50,
+"question":"Which AI architecture introduces emergent behaviors through agent interactions?",
+"options":[
+"Multi-agent systems",
+"Linear algorithms",
+"Static pipelines",
+"Rule engines"
+],
+"correctIndex":0,
+"explanation":"Multi-agent systems may create emergent behaviors."
+}
+]
