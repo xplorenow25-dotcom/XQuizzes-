@@ -1,0 +1,22 @@
+/* Apply the Inter font to all elements */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom hide class for transitions if needed later */
+.is-hidden {
+    display: none !important;
+}
+
+/* Styling for correct/incorrect options injected via JS */
+.option-correct {
+    background-color: #ecfdf5; /* Tailwind green-50 */
+    border-color: #10b981;     /* Tailwind green-500 */
+    color: #065f46;            /* Tailwind green-900 */
+}
+
+.option-incorrect {
+    background-color: #fef2f2; /* Tailwind red-50 */
+    border-color: #ef4444;     /* Tailwind red-500 */
+    color: #991b1b;            /* Tailwind red-900 */
+}
