@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certification Quiz Pro</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Base styles & Mobile Fixes */
+        body { 
+            font-family: 'Inter', sans-serif; 
+            -webkit-tap-highlight-color: transparent; 
+        }
+
+        /* Correct/Incorrect State Overrides */
+        .option-correct {
+            background-color: #ecfdf5 !important; /* Emerald Light */
+            border-color: #10B981 !important;     /* Emerald Green */
+            color: #065f46 !important;
+        }
+        
+        .option-incorrect {
+            background-color: #fef2f2 !important; /* Red Light */
+            border-color: #EF4444 !important;     /* Soft Red */
+            color: #991b1b !important;
+        }
+
+        /* Animation for feedback */
+        .animate-fadeIn {
+            animation: fadeIn 0.3s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-[#F3F4F6] text-[#1F2937] antialiased min-h-screen flex justify-center">
+
+    <main class="w-full max-w-[500px] bg-[#F3F4F6] min-h-screen flex flex-col relative shadow-2xl">
+        
+        <header id="quiz-header" class="hidden w-full bg-white shadow-sm sticky top-0 z-30">
+            <div class="h-1.5 w-full bg-gray-200">
+                <div id="progress-bar" class="h-full bg-[#1E40AF] transition-all duration-500 w-0"></div>
+            </div>
+            <div class="px-6 py-4 flex justify-between items-center">
+                <h1 class="text-xs font-extrabold uppercase tracking-widest text-gray-400">Exam Mode</h1>
+                <span id="progress-text" class="text-sm font-bold text-[#1E40AF]">0/0</span>
+            </div>
+        </header>
+
+        <div class="flex-1 px-5 py-6 pb-28">
+            
+            <div id="loading-screen" class="flex flex-col items-center justify-center h-64 text-center">
+                <div class="w-10 h-10 border-4 border-[#1E40AF] border-t-transparent rounded-full animate-spin mb-4"></div>
+                <p class="font-bold text-gray-400">Fetching Questions...</p>
+            </div>
+
+            <div id="quiz-screen" class="hidden flex-col gap-6">
+                
+                <div class="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
+                    <h2 id="question-text" class="text-lg font-bold leading-snug">
+                        </h2>
+                </div>
+
+                <div id="options-container" class="flex flex-col gap-3">
+                    </div>
+
+                <div id="explanation-container" class="hidden animate-fadeIn">
+                    <div class="bg-white border-l-4 border-[#10B981] p-5 rounded-r-2xl shadow-sm">
+                        <span class="text-[10px] font-black uppercase text-gray-400 block mb-1">Key Insight</span>
+                        <p id="explanation-text" class="text-sm leading-relaxed text-gray-600"></p>
+                    </div>
+                </div>
+
+                <div class="mt-2 space-y-3">
+                    <button id="btn-check" class="w-full bg-[#1E40AF] hover:bg-[#1e3a8a] active:scale-[0.97] transition-all duration-150 text-white font-bold py-4 rounded-2xl shadow-lg shadow-blue-900/20 disabled:opacity-30 disabled:pointer-events-none" disabled>
+                        Check Answer
+                    </button>
+                    
+                    <button id="btn-next" class="hidden w-full bg-[#1F2937] hover:bg-black active:scale-[0.97] transition-all duration-150 text-white font-bold py-4 rounded-2xl shadow-lg">
+                        Next Question
+                    </button>
+                </div>
+            </div>
+
+            <div id="results-screen" class="hidden flex-col items-center py-6 text-center">
+                <div class="bg-white rounded-[2rem] shadow-xl p-10 w-full border border-gray-100">
+                    <h2 class="text-2xl font-black text-[#1F2937] mb-1">Final Score</h2>
+                    <div id="score-percentage" class="text-7xl font-black text-[#1E40AF] my-8">0%</div>
+                    <p class="text-gray-400 font-bold mb-10 italic">
+                        Results: <span id="score-text" class="text-[#1F2937]">0</span> / <span id="total-text">0</span>
+                    </p>
+                    <button onclick="location.reload()" class="w-full bg-[#1E40AF] py-4 rounded-2xl text-white font-bold active:scale-[0.97] transition-transform shadow-lg shadow-blue-900/20">
+                        Restart Exam
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="fixed bottom-0 w-full max-w-[500px] bg-white/90 backdrop-blur-md border-t border-gray-200 p-3 flex justify-center z-40">
+            <div id="ad-space" class="w-[320px] h-[50px] bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                <span class="text-[9px] font-black text-gray-300 tracking-[0.2em] uppercase">
+                    AdMob Placement Slot
+                </span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
